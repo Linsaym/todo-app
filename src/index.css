@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+.App {
+	margin: 60px auto;
+	background: #F5F5F5;
+	max-width: 800px;
+	padding: 40px;
+}
+
+.title {
+	color: #EBD9D9;
+	font-weight: 100;
+	font-size: 80px;
+	text-align: center;
+}
+
+.changeTodoBlock {
+	display: flex;
+	justify-content: space-between;
+}
+
+.changeTodoBlock__sortBtns {
+	display: flex;
+}
+
+.changeTodoBlock__sortBtns button {
+	border-right: none;
+}
+
+.changeTodoBlock__sortBtns button:last-child {
+	border-right: 1px solid #E6E6E6;
+}
+
+
+
+button {
+	background: #fff;
+	border: 1px solid #E6E6E6;
+	padding: 2px;
+}
+
+.todoList {
+	background: #FEFEFE;
+}
+
+.todoElement {
+	padding: 10px;
+	border: 1px solid #E6E6E6;
+	display: flex;
+	align-content: center;
+}
+
+.todoElement__text {
+	margin-left: 10px;
+	font-size: 30px;
+	line-height: 50px;
+}
+
+.crossedOut {
+	color: #DBDBDB;
+	text-decoration: line-through;
+}
